@@ -5,7 +5,7 @@ window.axios = axios;
  
 window.axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 window.axios.defaults.withCredentials = true;
-window.axios.defaults.baseURL = "http://45.158.126.97/api/v1";
+window.axios.defaults.baseURL = "https://45.158.126.97/api/v1";
 
 window.axios.interceptors.response.use(
     (response) => response,
